@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class BatchProcessingWithRollbackExample {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/db";
+        String url = "jdbc:mysql://localhost:port_number/database_name"; //add your connection url
         String user = "********";//add your user id of msql
         String password = "*****"; //add your password
 
