@@ -9,8 +9,8 @@ public class BatchProcessingWithRollbackExample {
 
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/db";
-        String user = "********";
-        String password = "*****";
+        String user = "********";//add your user id of msql
+        String password = "*****"; //add your password
 
         try  {
             // Disable auto-commit to start a transaction
